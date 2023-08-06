@@ -1,0 +1,27 @@
+{
+  "name": "app-users-rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx parcel src/users/infraestructure/port/view/html/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexlambdas/app-users-rxjs.git"
+  },
+  "author": "alexlambdas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexlambdas/app-users-rxjs/issues"
+  },
+  "homepage": "https://github.com/alexlambdas/app-users-rxjs#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "rxjs": "^7.8.1"
+  }
+}

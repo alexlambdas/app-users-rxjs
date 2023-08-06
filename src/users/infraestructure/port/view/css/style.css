@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: monospace;
+}
+
+/* HEADER */
+/* HEADER */
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header > h1:nth-child(1){
+  color: #37474F;
+}
+
+header > h1:nth-child(2){
+  color: #AA00FF;
+}
+
+header > h1:nth-child(3){
+  color: #D80073;
+}
+
+
+/* SECTION - userButtons */
+/* SECTION - userButtons */
+
+.userButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.userButtons > button{
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.userButtons > button:nth-child(1){
+  margin-right: 10px;
+  background-color: #AA00FF;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.userButtons > button:nth-child(1):hover{
+  opacity: 0.8;
+}
+
+.userButtons > button:nth-child(2){
+  margin-left: 10px;
+  background-color: #D80073;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.userButtons > button:nth-child(2):hover{
+  opacity: 0.8;
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  
+}
+
+@media (min-width: 1200px){
+  
+}
