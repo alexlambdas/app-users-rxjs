@@ -1,3 +1,6 @@
+/* more styles */
+@import url('../components/userCard/UserCard.style.css');
+
 *{
   margin: 0;
   padding: 0;
@@ -48,7 +51,7 @@ header > h1:nth-child(3){
 
 .userButtons > button:nth-child(1){
   margin-right: 10px;
-  background-color: #AA00FF;
+  background-color: #E91E63;
   color: white;
   font-weight: bold;
   transition: 0.3s ease;
@@ -60,7 +63,7 @@ header > h1:nth-child(3){
 
 .userButtons > button:nth-child(2){
   margin-left: 10px;
-  background-color: #D80073;
+  background-color: #AA00FF;
   color: white;
   font-weight: bold;
   transition: 0.3s ease;
